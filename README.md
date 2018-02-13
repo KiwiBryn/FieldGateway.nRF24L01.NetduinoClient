@@ -1,4 +1,6 @@
-Sample plug n play Netduino 2, Netduino Plus 2, Netdiono 3, Netduino 3E & Netduino 3 Wifi clients for my nRF24L01 field gateway projects
+Sample plug n play [Netduino 2, Netduino Plus 2, Netduino 3, Netduino 3E & Netduino 3 Wifi](https://www.wildernesslabs.co/) clients for my [nRF24L01](http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24L01) field gateway projects
+
+Thanks to @Gralin for sharing the [nRF24L01 library](https://github.com/gralin/nrf24l01), The [Silicon Labs Si7005](https://www.silabs.com/products/sensors/humidity/si7005) temperature and humidity sensor driver is my own work.
 
 My Netduino clients use
 * [RFX Arduino shield](http://embeddedcoolness.com/shop/rfx-shield/)
@@ -7,6 +9,6 @@ My Netduino clients use
 * [SeeedStudio Grove-Base Shield V2](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)
 * [Netduino V2 or V3 device](https://www.wildernesslabs.co/Netduino)
 
-![Arduino Uno R3 & Seeeduino V4.2 Clients](NetduinonRF24L01.jpg)
+![Netduino 3 Client](NetduinonRF24L01.jpg)
 
-For clients without a Mac Address (i.e. Netduin 2 or Netduino 3) you can modify the code to use a human generated deviceID
+For clients without a Mac Address (i.e. Netduino 2 or Netduino 3) you can modify the code to use a human generated deviceID
